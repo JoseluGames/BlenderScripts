@@ -77,7 +77,6 @@ class PixelPerfectUVMapping(bpy.types.Operator):
         for face in bm.faces:
             for loop in face.loops:
                 uv = loop[uv_lay].uv
-                #uv *= (40) / (self.pixelsPerUnit * 512 / 5)
                 uv *= (self.pixelsPerUnit / self.textureSize) * 2
 
         bm.to_mesh(me)
