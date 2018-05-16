@@ -3,6 +3,7 @@
 # Source: https://github.com/JoseluGames/BlenderScripts
 # Version 0.0.2
 # Under CC BY-NC-SA 4.0 https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+#
 
 bl_info = {
 	"name": "Pixel Perfect UV Mapping",
