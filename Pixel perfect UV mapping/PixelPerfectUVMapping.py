@@ -13,9 +13,9 @@ bl_info = {
 	"name": "Pixel Perfect UV Mapping",
 	"category": "Mesh"}
 def register():
-    print("Hello World")
+    print("Pixel perfect mapping registered")
 def unregister():
-    print("Goodbye World")
+    print("Pixel perfect mapping unregistered")
 
 import bpy
 import bmesh
