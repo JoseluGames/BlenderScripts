@@ -1,6 +1,6 @@
 # Pixel perfect UV mapping
 
-## Instructions:
+### Instructions:
 
 Open the *Operator search dialog* (Space bar) and type *Map the mesh with pixel perfect size*, then you can set your desired pixels per unit and the texture size. The only thing left for you to do is to place the UVs correctly, this addon **only handles the size of your UVs** (Don't try to place your UVs first because everytime this script gets called, it will make all the UV mapping from scratch, **overwriting everything**)
 
