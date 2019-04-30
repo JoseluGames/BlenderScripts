@@ -1,12 +1,17 @@
 #
-# Pixel perfect UV mapping - Made by JoseluGames.
 # Source: https://github.com/JoseluGames/BlenderScripts
-# Version 0.0.2
 # Under CC BY-NC-SA 4.0 https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 #
 
 bl_info = {
 	"name": "Pixel Perfect UV Mapping",
+	"description": "A small addon that gives all the faces of a mesh the same pixel per unit texture density",
+	"author": "JoseluGames",
+	"version": (0, 0, 3),
+	"blender": (2, 70, 0),
+	"location": "Search menu > Map the mesh with pixel perfect size",
+	"wiki_url": "https://github.com/JoseluGames/BlenderScripts/blob/master/Pixel%20perfect%20UV%20mapping/README.md",
+	"tracker_url": "https://github.com/JoseluGames/BlenderScripts/issues",
 	"category": "Mesh"}
 def register():
     print("Pixel perfect mapping registered")
